@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Perfil";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <div class="text-center">
+     <img src=/lib/Imagens/Perfil1.png 
+     width="150"
+     height="150"
+     />
+     </hr>
+     <p>
+     Bem Vindo, @User.Identity.Name
+     </p>
+     </hr>
+     <p>
+     <div class="d-grid gap-2">
+     <buttom><a class="btn btn-primary"  asp-area="" asp-controller="Veiculos" asp-action="Index">Veiculos</a></buttom>
+     <buttom><a class="btn btn-primary"  asp-area="" asp-controller="Abastecimentos" asp-action="Index">Abastecimento</a></buttom>
+     <buttom><a class="btn btn-danger"  asp-area="" asp-controller="Usuarios" asp-action="Index">Deletar Conta</a></buttom>
+     </div>
+     </p>
+    </div>
+</div>
