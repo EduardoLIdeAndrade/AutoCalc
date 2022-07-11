@@ -1,4 +1,4 @@
-# AutoCalc1
+# AutoCalc
 Projeto 2º Semestre Puc
       -Uma aplicação interativa.
 
